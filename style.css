@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: lightgray;
+  margin: 0;
+  padding: 20px;
+}
+
+section h1 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.box {
+  background-color: white;
+  /* margin-top: 60px; */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.box h2 {
+  font-size: 35px;
+}
+
+.secure {
+  border: 2px lightgray dashed;
+  border-radius: 15px;
+  height: 180px;
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: rgb(177, 1, 1);
+  font-size: 25px;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  margin: 20px;
+  margin-left: 38%;
+}
