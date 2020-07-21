@@ -3,13 +3,13 @@ body {
   padding: 0;
 }
 
-section {
+.wrapper {
   background-color: lightgray;
   margin: 0;
   padding: 20px;
 }
 
-section h1 {
+.wrapper h1 {
   margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
@@ -45,5 +45,5 @@ button {
   border-radius: 50px;
   border: none;
   margin: 20px;
-  margin-left: 38%;
+  margin-left: 40%;
 }
