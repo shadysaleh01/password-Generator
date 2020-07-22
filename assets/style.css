@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* styles fot the main container */
 .wrapper {
   background-color: lightgray;
   margin: 0;
@@ -16,27 +16,33 @@ body {
   font-size: 45px;
 }
 
-.box {
+/* styles for the section */
+#box {
   background-color: white;
   /* margin-top: 60px; */
   padding: 40px;
+  margin: 20px;
   border-radius: 10px;
+  box-shadow: 7px 12px 16px black;
 }
 
-.box h2 {
+#box h2 {
   font-size: 35px;
 }
 
-.secure {
-  border: 2px lightgray dashed;
-  border-radius: 15px;
-  height: 180px;
+/* styles for the textarea "your secure password" */
+textarea {
+  padding: 5%;
+  width: 70%;
   text-align: center;
-  font-size: 25px;
-  color: gray;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  border: dashed 2px lightgray;
+  border-radius: 23px;
+  color: lightgray;
+  padding-left: 15%;
+  padding-right: 15%;
 }
-
+/* styles for the generate button */
 button {
   background-color: rgb(177, 1, 1);
   font-size: 25px;

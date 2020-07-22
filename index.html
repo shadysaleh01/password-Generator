@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
 
-      <section class="box">
-        <h2>Generate a Password</h2>
-        <hr />
-        <div class="secure">
-          <p id="Password">Your Secure Password</p>
-        </div>
-        <hr />
-        <button id="btn">Generate Password</button>
-      </section>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Document</title>
+</head>
 
-    <script src="script.js"></script>
-  </body>
+<body>
+  <!-- This is the main container -->
+  <div class="wrapper">
+
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <!-- The section -->
+    <section id="box">
+      <h2>Generate a Password</h2>
+      <hr />
+
+      <!-- Here where the password will showup -->
+      <textarea name="" placeholder="Your Secure Password" id="password" cols="30" rows="10"></textarea>
+      <hr />
+
+      <!-- The button that will generate the password -->
+      <button id="btn">Generate Password</button>
+    </section>
+  </div>
+
+  <!-- The Javascript document -->
+  <script src="script.js"></script>
+</body>
+
 </html>
