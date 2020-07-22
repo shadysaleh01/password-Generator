@@ -1,13 +1,13 @@
 # password-Generator
 https://shadysaleh01.github.io/password_Generator/
 
-Summary
+<strong>Summary</strong>
 <ul>
   <li>HTML and CSS and Javascript documents create a random password generator</li>
   <li>This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document</li>
 </ul>
 
-Psuedo code
+<strong>Psuedo code</srtong>
 <ul>
   <li>This password generator is helping to generate a random strong password that provides greater security.
 </li>
