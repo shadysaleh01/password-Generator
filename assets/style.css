@@ -19,7 +19,6 @@ body {
 /* styles for the section */
 #box {
   background-color: white;
-  /* margin-top: 60px; */
   padding: 40px;
   margin: 20px;
   border-radius: 10px;
@@ -33,23 +32,36 @@ body {
 /* styles for the textarea "your secure password" */
 textarea {
   padding: 5%;
-  width: 70%;
+  width: 90%;
   text-align: center;
   font-size: 23px;
   border: dashed 2px lightgray;
   border-radius: 23px;
-  color: lightgray;
-  padding-left: 15%;
-  padding-right: 15%;
+  color: black;
 }
 /* styles for the generate button */
-button {
+#btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#generateBtn {
   background-color: rgb(177, 1, 1);
   font-size: 25px;
   color: white;
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
-  margin: 20px;
-  margin-left: 38%;
+  width: 285px;
+  margin: 1%;
+}
+#copyBtn {
+  background-color: cornflowerblue;
+  font-size: 25px;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  width: 285px;
+  margin: 1%;
 }

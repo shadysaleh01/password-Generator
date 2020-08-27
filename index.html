@@ -22,11 +22,15 @@
       <hr />
 
       <!-- Here where the password will showup -->
-      <textarea name="" placeholder="Your Secure Password" id="password" cols="30" rows="10"></textarea>
+      <textarea placeholder="Your Secure Password" id="password" cols="30" rows="10"
+        aria-label="Generated Password"></textarea>
       <hr />
 
       <!-- The button that will generate the password -->
-      <button id="btn">Generate Password</button>
+      <div id="btns">
+        <button id="generateBtn">Generate Password</button>
+        <button id="copyBtn">Copy Password</button>
+      </div>
     </section>
   </div>
 
