@@ -23,4 +23,4 @@ https://shadysaleh01.github.io/password_Generator/
 </li>
 </ul>
 
-<img src="./image.screenShot.png">
+<img src="image/screenShot.PNG">
